@@ -21,7 +21,7 @@ jobs:
           npm install
           npm run build
           cd ../../
-	  pwd
+          pwd
 
       - name: Deploy React App
         run: wrangler pages deploy apps/hello-react/build --project-name test-mono-react --branch main
