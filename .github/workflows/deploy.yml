@@ -24,7 +24,7 @@ jobs:
           ls
 
       - name: Deploy React App
-        run: wrangler pages deploy apps/hello-react/build --project-name test-mono-react --branch main
+        run: wrangler pages deploy apps/hello-react/dist --project-name test-mono-react --branch main
         env:
           CLOUDFLARE_API_TOKEN: LERcWduzQns_35a4MSJGCEsVydioCOYka936q_2r
 
