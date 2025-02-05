@@ -1,0 +1,6 @@
+name = "hello-react"
+
+pages_build_output_dir = "./dist/"
+
+[pages]
+project = "hello-react"
