@@ -24,12 +24,12 @@ jobs:
           ls
 
       - name: Deploy React App
-        run: wrangler pages publish apps/hello-react/dist --project-name test-mono-react --branch main
+        run: pnpm deploy:app1
         env:
           CLOUDFLARE_API_TOKEN: LERcWduzQns_35a4MSJGCEsVydioCOYka936q_2r
 
       - name: Deploy Static Page
-        run: wrangler pages publish apps/public --project-name=test-mono --branch main
+        run: pnpm deploy:app2
         env:
           CLOUDFLARE_API_TOKEN: LERcWduzQns_35a4MSJGCEsVydioCOYka936q_2r 
 

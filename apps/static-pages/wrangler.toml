@@ -3,4 +3,4 @@ name = "static-page"
 pages_build_output_dir = "."
 
 [pages]
-project = "static-page"
+project = "test-mono"
