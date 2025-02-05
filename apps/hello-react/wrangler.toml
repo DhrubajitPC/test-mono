@@ -1,4 +1,4 @@
-name = "hello-react"
+name = "test-mono-react"
 
 pages_build_output_dir = "./dist/"
 

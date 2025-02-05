@@ -1,4 +1,4 @@
-name = "static-page"
+name = "test-mono"
 
 pages_build_output_dir = "."
 
