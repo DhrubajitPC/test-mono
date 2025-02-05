@@ -15,6 +15,9 @@ jobs:
       - name: Install Wrangler
         run: npm install -g wrangler
 
+      - name: Install pnpm
+        run: npm install -g pnpm
+
       - name: Build React App
         run: |
           cd apps/hello-react
