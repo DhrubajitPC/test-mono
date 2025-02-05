@@ -29,7 +29,7 @@ jobs:
           CLOUDFLARE_API_TOKEN: LERcWduzQns_35a4MSJGCEsVydioCOYka936q_2r
 
       - name: Deploy Static Page
-        run: wrangler pages publish apps/static-page --project-name=test-mono --branch main
+        run: wrangler pages publish apps/public --project-name=test-mono --branch main
         env:
           CLOUDFLARE_API_TOKEN: LERcWduzQns_35a4MSJGCEsVydioCOYka936q_2r 
 
