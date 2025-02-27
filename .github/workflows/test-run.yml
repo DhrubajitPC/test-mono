@@ -1,7 +1,9 @@
-name: Run Tests
+name: Another workflow
 
 on:
-  workflow_dispatch: # Allows manual triggering
+  workflow_dispatch: 
+  push:               
+    branches: [ test-workflow ]
 
 jobs:
   test:
