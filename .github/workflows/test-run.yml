@@ -1,0 +1,11 @@
+name: Run Tests
+
+on:
+  workflow_dispatch: # Allows manual triggering
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Print Hello World
+        run: echo "Hello World"
